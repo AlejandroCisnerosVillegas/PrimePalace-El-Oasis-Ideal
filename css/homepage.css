@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;
+    color: #fff;
+    overflow-x: hidden;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #0FE4F1;
+}
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-bottom: 4px solid #0FE4F1;
+}
+.slideshow-container img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    transition: transform 0.8s ease;
+}
+.slideshow-container img:hover {
+    transform: scale(1.05);
+}
+.text {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.reserve-room {
+    display: block;
+    width: 50%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #4AB8F9;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 24px;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.reserve-room:hover {
+    background-color: #0078A3;
+}
+.welcome-text {
+    text-align: center;
+    font-size: 24px;
+    margin: 40px 0;
+    color: #fff;
+}
+.rooms-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.room {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.room img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.8s ease;
+}
+.room img:hover {
+    transform: scale(1.05);
+}
+.room h3 {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.footer h2, .footer h3 {
+    margin: 10px 0;
+}
