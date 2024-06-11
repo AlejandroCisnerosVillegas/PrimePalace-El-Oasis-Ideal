@@ -1,2 +1,3 @@
-# PrimePalace-El-Oasis-Ideal
-Presento una plataforma web diseñada para el hotel PrimePalace | El Oasis Ideal. Esta solución digital, elaborada con HTML, CSS, JavaScript, PHP y MySQL, proporciona una interfaz sofisticada y funcionalidades avanzadas. Destacan las opciones de hospedaje detalladas, galerías de imágenes y herramientas de reserva y gestión de cuentas.
+# PrimePalace | El Oasis Ideal
+## _Área: Proyectos_
+Se ha llevado a cabo el desarrollo de una página web dedicada al hotel PrimePalace | El Oasis Ideal, un establecimiento de lujo situado en una playa paradisíaca en México. La página web ofrece una experiencia completa e interactiva para los usuarios, proporcionando información detallada sobre las instalaciones, servicios y opciones de hospedaje que ofrece el hotel.
